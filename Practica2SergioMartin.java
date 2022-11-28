@@ -72,16 +72,6 @@ public class Practica2SergioMartin extends JFrame implements ActionListener{
         add(panelTarjetas);
     }
 
-    public void initDegradado(){
-        Color color1 = new Color(0x666f7f);
-        Color color2 = new Color(0x262d3d);
-        float x1=0;
-        float y1=0;
-        float x2=getWidth();
-        float y2=getHeight();
-
-        Graphics2D g2 = (Graphics2D) g.create();
-    }
     //TODO Método para generar las distintas tarjetas que componen el CardLayout
     public void initTarjetas(){
         String[] nomTarj = {"1","2","3","4","5"};
